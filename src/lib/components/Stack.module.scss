@@ -1,0 +1,29 @@
+.stack {
+  display: flex;
+  gap: 1em;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+
+  &.isFill {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+  }
+
+  &.isVertical {
+    flex-direction: column;
+  }
+
+  &.isCentered {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &.hasBg {
+    background: var(--accent);
+    border-radius: 0.3em;
+    padding: 1em;
+  }
+}

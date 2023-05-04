@@ -1,0 +1,27 @@
+.button {
+  --button-bg-color: red;
+  --button-text-color: white;
+
+  white-space: nowrap;
+  font-size: 2em;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+
+  &.outlined {
+    background-color: transparent;
+    border: 3px solid var(--button-bg-color);
+    color: var(--button-bg-color);
+  }
+
+  &.red {
+    --button-bg-color: red;
+  }
+  &.purple {
+    --button-bg-color: purple;
+  }
+  &.green {
+    --button-bg-color: green;
+  }
+}

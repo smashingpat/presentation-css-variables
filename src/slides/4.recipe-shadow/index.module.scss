@@ -1,0 +1,17 @@
+.grid {
+  --x: 0;
+  --y: 0;
+
+  width: 100%;
+  gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.box {
+  border-radius: 0.3em;
+  box-shadow: calc(var(--x) * 0.5em) calc(var(--y) * 0.5em + 0.2em) 0.3em
+    rgba(black, 0.4);
+  aspect-ratio: 1/1;
+  background-color: white;
+}

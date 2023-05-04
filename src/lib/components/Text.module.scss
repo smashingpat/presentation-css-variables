@@ -1,0 +1,21 @@
+.title,
+.megaTitle {
+  font-weight: bold;
+  font-size: 2em;
+
+  span {
+    display: inline-block;
+    color: var(--primary);
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, var(--primary), var(--secondary));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+}
+
+.megaTitle {
+  font-size: 5em;
+}

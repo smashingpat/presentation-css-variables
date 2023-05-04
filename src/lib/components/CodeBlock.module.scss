@@ -1,0 +1,32 @@
+$spacing: 0.5em;
+$number-width: 2em;
+$color: rgba(white, 0.4);
+
+.code {
+  position: relative;
+  padding: $spacing;
+  border-radius: 0.2em;
+  text-align: left;
+  width: 100%;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: $number-width;
+    display: block;
+    height: 100%;
+    width: 1px;
+    background-color: $color;
+  }
+}
+
+.number {
+  display: inline-block;
+  color: $color;
+  padding: 0 $spacing;
+  margin-right: $spacing;
+  margin-left: $spacing * -1;
+  width: $number-width;
+  text-align: right;
+}

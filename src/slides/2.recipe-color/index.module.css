@@ -1,0 +1,7 @@
+.wheel {
+  --hue: 0;
+  background-color: hsl(var(--hue), 50%, 50%);
+  border-radius: 50%;
+  width: 20em;
+  aspect-ratio: 1 / 1;
+}
