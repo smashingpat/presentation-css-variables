@@ -29,6 +29,7 @@ export default function Slide() {
             <button className={cx($.button, $.red)}>red button</button>
             <button className={cx($.button, $.purple)}>purple button</button>
             <button className={cx($.button, $.green)}>green button</button>
+            <button className={cx($.button, $.yellow)}>yellow button</button>
           </Stack>
           <Stack vertical centered>
             <button className={cx($.button, $.outlined, $.red)}>
@@ -39,6 +40,9 @@ export default function Slide() {
             </button>
             <button className={cx($.button, $.outlined, $.green)}>
               green button
+            </button>
+            <button className={cx($.button, $.outlined, $.yellow)}>
+              yellow button
             </button>
           </Stack>
         </Stack>

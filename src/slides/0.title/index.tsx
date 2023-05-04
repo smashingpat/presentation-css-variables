@@ -4,8 +4,8 @@ import imagePath from './image.jpg';
 
 export default function Slide() {
   return (
-    <Stack fill centered>
-      <Text variant="mega-title">Cooking Recipes with CSS Variables</Text>
+    <Stack fill centered vertical>
+      <Text variant="mega-title">Cooking Recipes with <br />CSS Variables</Text>
       <img src={imagePath} alt="" />
     </Stack>
   );

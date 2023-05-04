@@ -10,7 +10,7 @@
   color: var(--button-text-color);
 
   &.outlined {
-    background-color: transparent;
+    background-color: rgba(black, 0.1);
     border: 3px solid var(--button-bg-color);
     color: var(--button-bg-color);
   }
@@ -23,5 +23,9 @@
   }
   &.green {
     --button-bg-color: green;
+  }
+  &.yellow {
+    --button-bg-color: yellow;
+    --button-text-color: black;
   }
 }

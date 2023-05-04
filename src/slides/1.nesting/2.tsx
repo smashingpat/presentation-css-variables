@@ -26,12 +26,17 @@ export default function Slide() {
 .button.is-green {
   --button-bg-color: green;
 }
+.button.is-yellow {
+  --button-bg-color: yellow;
+  --button-text-color: black;
+}
       `}
         />
         <Stack fill bg centered vertical>
           <button className={cx($.button, $.red)}>red button</button>
           <button className={cx($.button, $.purple)}>purple button</button>
           <button className={cx($.button, $.green)}>green button</button>
+          <button className={cx($.button, $.yellow)}>yellow button</button>
         </Stack>
       </Stack>
     </Stack>
